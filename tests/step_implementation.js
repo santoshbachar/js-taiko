@@ -148,7 +148,7 @@ step("Intercept Google Analytics", async function() {
 });
 
 step("Respond to <url> with <respomnseBody>", async function(url, respomnseBody) {
-	await intercept(url, {body: respomnseBody })
+	await intercept(url, {body: responseBody })
 });
 
 step("Respond to <url> with json <jsonString>", async function(url, jsonString) {
